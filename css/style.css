@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/* -------------------------------------------------------- HEADER START */
 header .top-nav span {
 
     color: white;
@@ -33,6 +33,10 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+/* ------------------------------------------------------------ HEADER END */
+
+/* ------------------------------------------------------------ MAIN START */
 
 main {
 
@@ -84,6 +88,11 @@ main {
     padding: 3px;
 }
 
+/* ----------------------------------------------------------- MAIN END */
+
+/* ---------------------------------------------------------- FOOTER START */
+
+
 footer {
 
     background-color: rgb(34, 34, 34);
@@ -109,12 +118,8 @@ footer {
     align-items: center;
 }
 
-h5 {
 
-    font-size: 10px;
-    margin-top: 3px;
-}
-
+/* -----------------------------------------LEFT-SIDE START */
 .left-side {
 
  display: flex;
@@ -129,19 +134,10 @@ h5 {
     margin-left: 10px;
 }
 
-.arrow {
 
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-.fa-angle-up {
+/* --------------------------------------LEFT-SIDE END */
 
-    font-size: 10px;
-    display: block;
-    margin: 5px;
-    
-}
+/* -------------------------------------- CENTER START */
 
 .center {
 
@@ -159,6 +155,11 @@ h5 {
     text-align: center;
 }
 
+/* ------------------------------------ CENTER END */
+
+/* ------------------------------------- RIGHT-SIDE START */
+
+
 .footer-right {
 
     color: red;
@@ -174,3 +175,28 @@ h5 {
     font-size: 10px;
     font-weight: 100;
 }
+
+/* --------------------------------------- RIGHT-SIDE END */
+
+h5 {
+
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.arrow {
+
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.fa-angle-up {
+
+    font-size: 10px;
+    display: block;
+    margin: 5px;
+    
+}
+
+/*---------------------------------------------------------- FOOTER END  */
